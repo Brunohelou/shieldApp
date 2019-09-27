@@ -1,0 +1,48 @@
+<!--
+  Generated template for the PrincipalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<style> 
+    ::placeholder {
+      color: rgb(206, 206, 202);
+      opacity: 1; /* Firefox */
+      font-size: 24px;
+      text-align: center;
+      -webkit-text-stroke-width: 0.7px;
+      -webkit-text-stroke-color: rgb(0, 0, 0);
+      
+    }
+        input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: none;
+          font-size: 24px;
+          text-align: center;
+          -webkit-text-stroke-width: 0.7px;
+          -webkit-text-stroke-color: rgb(0, 0, 0);
+          background-color: rgba(203, 211, 208, 0.623);
+          color: rgb(238, 241, 59);
+        }
+        </style>
+    <ion-header>
+    
+      <ion-navbar>
+        <ion-title>Login or Register</ion-title>
+      </ion-navbar>
+    
+    </ion-header>
+    
+    
+    <ion-content  padding>
+      <h1>S.H.I.E.L.D</h1>
+       
+       <ion-input   class="ion-input" [(ngModel)]="username" placeholder="Username"></ion-input>
+       <ion-input class="ion-input" [(ngModel)]="email" placeholder="E-mail"></ion-input>
+       <ion-input class="ion-input" [(ngModel)]="password" placeholder="Password"></ion-input>
+      <br>
+      <button  class="buttons" color="yellow" ion-button (click)="cadastrar()" >  SignUp!  </button>
+</ion-content>

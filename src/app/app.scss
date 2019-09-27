@@ -4,8 +4,8 @@
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
+// 
+// Additionally, this fiSle can be also used as an entry point
 // to import other Sass files to be included in the output CSS.
 //
 // Shared Sass variables, which can be used to adjust Ionic's
@@ -14,3 +14,22 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+ion-content {
+    background-image: url('../assets/imgs/shield.jpg');
+    background-position: center;
+
+    
+    
+}
+
+
+h1{
+    font-size: 3em; 
+    color: #fffdd9;
+    text-align: center;
+    line-height: 50px;
+    padding: 20% 0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(11, 5, 39);
+
+}
